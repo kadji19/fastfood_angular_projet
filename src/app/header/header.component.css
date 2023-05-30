@@ -1,0 +1,35 @@
+header{
+    background-color: white;
+    border-bottom: 3px ridge #ffffff70;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+span{
+  color: #ff6600;
+}
+
+nav ul li a:hover{
+    background-color:#ff6600;
+    color: white;
+}
+a.logo{
+  font-size: 35px;
+  font-weight: bolder;
+   padding: 1%;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+nav ul li a{
+  font-size: 20px;
+  color: #ff6600;
+    padding: 1em;
+    display: inline-block;
+}
